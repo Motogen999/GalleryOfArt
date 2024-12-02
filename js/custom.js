@@ -1,13 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const galleryLinks = document.querySelectorAll('.gallery a');
 
-    // var lightbox = new SimpleLightbox('.gallery a', {
-    //   captions: true,                // Activează caption-urile
-    //   captionsData: 'alt',           // Utilizează atributul alt pentru caption
-    //   captionDelay: 0,               // Fără întârziere
-    // });
-
-
     galleryLinks.forEach(link => {
         link.addEventListener('click', function (event) {
             event.preventDefault();
