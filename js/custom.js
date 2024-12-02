@@ -14,25 +14,32 @@ document.addEventListener('DOMContentLoaded', function () {
             img.src = link.getAttribute('href');
             lightbox.appendChild(img);
 
-            // Creează textul (caption)
             const caption = document.createElement('div');
             caption.classList.add('caption');
             caption.innerText = link.getAttribute('data-caption') || link.querySelector('img').alt;
             lightbox.appendChild(caption);
 
-            // Creează butonul de închidere
             const closeBtn = document.createElement('div');
             closeBtn.classList.add('close-btn');
             closeBtn.innerHTML = '&times;';
             lightbox.appendChild(closeBtn);
 
-            // Închidere Lightbox
             closeBtn.addEventListener('click', () => {
                 lightbox.remove();
             });
 
-            // Adaugă Lightbox-ul în DOM
             document.body.appendChild(lightbox);
         });
     });
+});
+
+$('#scroll-btn').on('click', function (e) {
+    e.preventDefault();
+
+    $('html, body').animate(
+        {
+            scrollTop: $('#scroll-target').offset().top,
+        },
+        800
+    );
 });
