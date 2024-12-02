@@ -74,7 +74,42 @@
             </div>
         </div>
     </header><!-- #header -->
-
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+            <div class="container">
+                <h2>Cunoaște-mă</h2>
+                <p>Îți mulțumesc că vrei să afli mai multe despre mine! Iată câteva detalii:</p>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <ul>
+                            <li><strong>Nume:</strong> Ion Popescu</li>
+                            <li><strong>Email:</strong> ion.popescu@email.com</li>
+                            <li><strong>Locație:</strong> Brașov, România</li>
+                            <li><strong>Vârstă:</strong> 28 ani</li>
+                            <li><strong>Profesie:</strong> Pictor și designer grafic</li>
+                            <li><strong>Specializare:</strong> Artă abstractă, peisaje urbane</li>
+                            <li><strong>Hobby:</strong> Călătorii, fotografie, muzică clasică</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <p>
+                            Sunt un pasionat de artă și cred cu tărie în puterea acesteia de a transmite emoții și de a
+                            schimba percepții. Mă inspir din tot ce mă înconjoară, de la peisaje naturale până la
+                            arhitectura modernă a orașelor.
+                        </p>
+                        <p>
+                            Am început să pictez încă din adolescență, iar de atunci am continuat să experimentez cu
+                            diferite stiluri și tehnici. Arta este pentru mine o modalitate de a mă exprima și de a
+                            ajunge
+                            la inimile celor care mă privesc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="modal__close">&times;</a>
+    </div>
+    </div>
     <section class="banner-area relative" id="home">
         <div class="overlay overlay-bg"></div>
         <div class="container">
@@ -108,19 +143,17 @@
                         <span class="lnr lnr-clock"></span>
                         <h4>Descoperă Arta</h4>
                         <p>
-                            În această colecție, fiecare lucrare spune o poveste despre frumusețea subtilă a lumii
-                            înconjurătoare. De la pânze vibrante, ce surprind mișcarea și emoția, până la lucrări
-                            abstracte ce provoacă imaginația, fiecare piesă își adâncește semnificația în ochii fiecărui
-                            privitor.
+                            Fiecare lucrare reflectă viziunea artistului, unindu-se într-un dialog între tradiție și
+                            inovație. Picturile vibrante aduc la viață emoții și povești vizuale ce stimulează
+                            imaginația.
                         </p>
                         <div class="overlay">
                             <div class="text">
                                 <p>
-                                    Explorează tehnici variate de pictură, ce îmbină tradiția cu inovația. Fiecare
-                                    expoziție este o oportunitate de a înțelege mai profund legătura dintre artist și
-                                    public.
+                                    Oferim o diversitate de tehnici și stiluri care explorează limitele expresiei
+                                    vizuale, invitând privitorul să descopere adâncurile artei.
                                 </p>
-                                <a href="#" class="text-uppercase primary-btn">Achiziționează bilet</a>
+                                <a href="#demo-modal" class="text-uppercase primary-btn">Adâncește-ți Privirea</a>
                             </div>
                         </div>
                     </div>
@@ -130,17 +163,16 @@
                         <span class="lnr lnr-rocket"></span>
                         <h4>Expoziții Curente</h4>
                         <p>
-                            Expozițiile noastre curente aduc laolaltă lucrări de artă inovative, explorând tehnici de
-                            pictură tradițională și modernă. Vă invităm să descoperiți noi perspective asupra artei
-                            vizuale.
+                            Expozițiile noastre reunesc lucrări ce reflectă inovație și creativitate. Fiecare piesă
+                            oferă o nouă perspectivă asupra artei vizuale moderne.
                         </p>
                         <div class="overlay">
                             <div class="text">
                                 <p>
-                                    Participă la expozițiile ce explorează imagini și emoții prin culori, linii și
-                                    forme. Fiecare lucrare este o fereastră către universuri creative și sensibile.
+                                    Artiștii contemporani aduc în față imagini ce provoacă gândirea și provoacă emoții,
+                                    prin culori și forme ce vor rămâne în memoria privitorului.
                                 </p>
-                                <a href="#" class="text-uppercase primary-btn">Achiziționează bilet</a>
+                                <a href="#demo-modal" class="text-uppercase primary-btn">Adâncește-ți Privirea</a>
                             </div>
                         </div>
                     </div>
@@ -150,22 +182,21 @@
                         <span class="lnr lnr-briefcase"></span>
                         <h4>Evenimente Artistice</h4>
                         <p>
-                            Participă la vernisaje și ateliere de artizanat, unde artiști locali și internaționali își
-                            prezintă lucrările. Descoperă cum arta poate transforma percepțiile și emoțiile noastre.
+                            Participă la vernisaje ce aduc în fața ta lucrări unice. Fiecare eveniment este o
+                            oportunitate de a înțelege profund legătura dintre artist și spectator.
                         </p>
                         <div class="overlay">
                             <div class="text">
                                 <p>
-                                    Evenimentele noastre sunt mai mult decât expoziții – sunt întâlniri între artist și
-                                    spectator, oportunități de a trăi și înțelege arta dincolo de simpla privire.
+                                    Evenimentele noastre sunt mai mult decât expoziții – sunt momente de conexiune între
+                                    arta creată și cei care o privesc, pentru a o trăi cu adevărat.
                                 </p>
-                                <a href="#" class="text-uppercase primary-btn">Achiziționează bilet</a>
+                                <a href="#demo-modal" class="text-uppercase primary-btn">Adâncește-ți Privirea</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -265,17 +296,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.min.js"></script>
 
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
     <script src="js/easing.min.js"></script>
     <script src="js/hoverIntent.js"></script>
     <script src="js/superfish.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/justified.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
     <script src="js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.0/dist/simple-lightbox.min.js"></script>
