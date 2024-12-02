@@ -1,39 +1,45 @@
-// .sl-caption{
-//     left: 23vw !important;
-// }
-
 .custom-lightbox {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    padding: 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  padding: 20px;
+}
 
-  .custom-lightbox img {
-    max-width: 60%; /* Imaginea ocupă 60% */
-    max-height: 80%; /* Se ajustează înălțimea */
-  }
+.custom-lightbox img {
+  max-width: 60%;
+  max-height: 80%;
+}
 
+.custom-lightbox .caption {
+  flex: 1;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  max-height: 80%;
+}
+
+@media (max-width: 1024px) {
   .custom-lightbox .caption {
-    flex: 1;
-    color: #fff;
-    font-size: 1.5rem;
-    margin-left: 20px;
-    max-height: 80%;
+    overflow-y: auto;
+    max-height: 250px;
   }
+  .custom-lightbox{
+    display: inline-grid;
+  }
+}
 
-  .custom-lightbox .close-btn {
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    color: #fff;
-    font-size: 10rem;
-    cursor: pointer;
-  }
+.custom-lightbox .close-btn {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  color: #fff;
+  font-size: 10rem;
+  cursor: pointer;
+}

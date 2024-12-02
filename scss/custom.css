@@ -1,5 +1,4 @@
-@charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\000031}}
 .custom-lightbox {
   display: flex;
   align-items: center;
@@ -13,14 +12,12 @@
   z-index: 1000;
   padding: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000315}}
 .custom-lightbox img {
   max-width: 60%;
-  /* Imaginea ocupă 60% */
-  max-height: 80%;
-  /* Se ajustează înălțimea */ }
+  max-height: 80%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000320}}
 .custom-lightbox .caption {
   flex: 1;
   color: #fff;
@@ -28,7 +25,16 @@
   margin-left: 20px;
   max-height: 80%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000332}}
+@media (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000329}}
+  .custom-lightbox .caption {
+    overflow-y: auto;
+    max-height: 250px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000333}}
+  .custom-lightbox {
+    display: inline-grid; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000338}}
 .custom-lightbox .close-btn {
   position: absolute;
   top: 60px;
