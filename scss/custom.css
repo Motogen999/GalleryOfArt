@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\000035}}
+.custom-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  padding: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000319}}
+.custom-lightbox img {
+  max-width: 60%;
+  /* Imaginea ocupă 60% */
+  max-height: 80%;
+  /* Se ajustează înălțimea */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000324}}
+.custom-lightbox .caption {
+  flex: 1;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  max-height: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\0000332}}
+.custom-lightbox .close-btn {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  color: #fff;
+  font-size: 10rem;
+  cursor: pointer; }
+
+/*# sourceMappingURL=custom.css.map */

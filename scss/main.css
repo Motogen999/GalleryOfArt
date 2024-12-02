@@ -1,0 +1,3124 @@
+/*--------------------------- Color variations ----------------------*/
+/* Medium Layout: 1280px */
+/* Tablet Layout: 768px */
+/* Mobile Layout: 320px */
+/* Wide Mobile Layout: 480px */
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\000035}}
+::-moz-selection {
+  /* Code for Firefox */
+  background-color: #88d200;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\000039}}
+::selection {
+  background-color: #88d200;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000313}}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #777777;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000317}}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #777777;
+  opacity: 1;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000322}}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #777777;
+  opacity: 1;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000327}}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #777777;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000331}}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #777777;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000335}}
+body {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000345}}
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000350}}
+select {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000353}}
+figure {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000357}}
+a {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000361}}
+iframe {
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000365}}
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000369}}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000379}}
+.card-panel {
+  margin: 0;
+  padding: 60px; }
+
+/**
+ *  Typography
+ *
+ **/
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000387}}
+.btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
+  font-size: 1em;
+  line-height: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000391}}
+.gray-bg {
+  background: #f9f9ff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\0000395}}
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003104}}
+.h1, .h2, .h3,
+.h4, .h5, .h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #222222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003113}}
+h1, .h1 {
+  font-size: 36px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003114}}
+h2, .h2 {
+  font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003115}}
+h3, .h3 {
+  font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003116}}
+h4, .h4 {
+  font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003117}}
+h5, .h5 {
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003118}}
+h6, .h6 {
+  font-size: 14px;
+  color: #222222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003120}}
+td, th {
+  border-radius: 0px; }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003133}}
+.clear::before, .clear::after {
+  content: " ";
+  display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003138}}
+.clear::after {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003145}}
+.fz-11 {
+  font-size: 11px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003146}}
+.fz-12 {
+  font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003147}}
+.fz-13 {
+  font-size: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003148}}
+.fz-14 {
+  font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003149}}
+.fz-15 {
+  font-size: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003150}}
+.fz-16 {
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003151}}
+.fz-18 {
+  font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003152}}
+.fz-30 {
+  font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003153}}
+.fz-48 {
+  font-size: 48px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003154}}
+.fw100 {
+  font-weight: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003155}}
+.fw300 {
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003156}}
+.fw400 {
+  font-weight: 400 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003157}}
+.fw500 {
+  font-weight: 500; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003158}}
+.f700 {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003159}}
+.fsi {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003161}}
+.mt-10 {
+  margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003162}}
+.mt-15 {
+  margin-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003163}}
+.mt-20 {
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003164}}
+.mt-25 {
+  margin-top: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003165}}
+.mt-30 {
+  margin-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003166}}
+.mt-35 {
+  margin-top: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003167}}
+.mt-40 {
+  margin-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003168}}
+.mt-50 {
+  margin-top: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003169}}
+.mt-60 {
+  margin-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003170}}
+.mt-70 {
+  margin-top: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003171}}
+.mt-80 {
+  margin-top: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003172}}
+.mt-100 {
+  margin-top: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003173}}
+.mt-120 {
+  margin-top: 120px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003174}}
+.mt-150 {
+  margin-top: 150px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003176}}
+.ml-0 {
+  margin-left: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003177}}
+.ml-5 {
+  margin-left: 5px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003178}}
+.ml-10 {
+  margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003179}}
+.ml-15 {
+  margin-left: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003180}}
+.ml-20 {
+  margin-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003181}}
+.ml-30 {
+  margin-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003182}}
+.ml-50 {
+  margin-left: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003184}}
+.mr-0 {
+  margin-right: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003185}}
+.mr-5 {
+  margin-right: 5px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003186}}
+.mr-15 {
+  margin-right: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003187}}
+.mr-10 {
+  margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003188}}
+.mr-20 {
+  margin-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003189}}
+.mr-30 {
+  margin-right: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003190}}
+.mr-50 {
+  margin-right: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003192}}
+.mb-0 {
+  margin-bottom: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003193}}
+.mb-0-i {
+  margin-bottom: 0px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003194}}
+.mb-5 {
+  margin-bottom: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003195}}
+.mb-10 {
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003196}}
+.mb-15 {
+  margin-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003197}}
+.mb-20 {
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003198}}
+.mb-25 {
+  margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003199}}
+.mb-30 {
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003200}}
+.mb-40 {
+  margin-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003201}}
+.mb-50 {
+  margin-bottom: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003202}}
+.mb-60 {
+  margin-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003203}}
+.mb-70 {
+  margin-bottom: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003204}}
+.mb-80 {
+  margin-bottom: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003205}}
+.mb-90 {
+  margin-bottom: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003206}}
+.mb-100 {
+  margin-bottom: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003208}}
+.pt-0 {
+  padding-top: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003209}}
+.pt-10 {
+  padding-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003210}}
+.pt-15 {
+  padding-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003211}}
+.pt-20 {
+  padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003212}}
+.pt-25 {
+  padding-top: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003213}}
+.pt-30 {
+  padding-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003214}}
+.pt-40 {
+  padding-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003215}}
+.pt-50 {
+  padding-top: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003216}}
+.pt-60 {
+  padding-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003217}}
+.pt-70 {
+  padding-top: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003218}}
+.pt-80 {
+  padding-top: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003219}}
+.pt-90 {
+  padding-top: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003220}}
+.pt-100 {
+  padding-top: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003221}}
+.pt-120 {
+  padding-top: 120px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003222}}
+.pt-150 {
+  padding-top: 150px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003223}}
+.pt-170 {
+  padding-top: 170px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003225}}
+.pb-0 {
+  padding-bottom: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003226}}
+.pb-10 {
+  padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003227}}
+.pb-15 {
+  padding-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003228}}
+.pb-20 {
+  padding-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003229}}
+.pb-25 {
+  padding-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003230}}
+.pb-30 {
+  padding-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003231}}
+.pb-40 {
+  padding-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003232}}
+.pb-50 {
+  padding-bottom: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003233}}
+.pb-60 {
+  padding-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003234}}
+.pb-70 {
+  padding-bottom: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003235}}
+.pb-80 {
+  padding-bottom: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003236}}
+.pb-90 {
+  padding-bottom: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003237}}
+.pb-100 {
+  padding-bottom: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003238}}
+.pb-120 {
+  padding-bottom: 120px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003239}}
+.pb-150 {
+  padding-bottom: 150px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003241}}
+.pr-30 {
+  padding-right: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003242}}
+.pl-30 {
+  padding-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003243}}
+.pl-90 {
+  padding-left: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003246}}
+.p-40 {
+  padding: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003249}}
+.float-left {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003252}}
+.float-right {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003256}}
+.text-italic {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003257}}
+.text-white {
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003258}}
+.text-black {
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003259}}
+.transition {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003260}}
+.section-full {
+  padding: 100px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003261}}
+.section-half {
+  padding: 75px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003262}}
+.text-center {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003263}}
+.text-left {
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003264}}
+.text-rigth {
+  text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003266}}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003267}}
+.inline-flex {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003268}}
+.flex-grow {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003269}}
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003270}}
+.flex-left {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003271}}
+.flex-middle {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003272}}
+.flex-right {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  justify-content: flex-end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003273}}
+.flex-top {
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003274}}
+.flex-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003275}}
+.flex-bottom {
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003276}}
+.space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003277}}
+.space-around {
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003278}}
+.flex-column {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003279}}
+.flex-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003283}}
+.display-table {
+  display: table; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003284}}
+.light {
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003285}}
+.dark {
+  color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003286}}
+.relative {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003287}}
+.overflow-hidden {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003288}}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003297}}
+.container.fullwidth {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003300}}
+.container.no-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003305}}
+.no-padding {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003308}}
+.section-bg {
+  background: #f9fafc; }
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003311}}
+  .no-flex-xs {
+    display: block !important; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_reset\.scss}line{font-family:\00003318}}
+.row.no-margin {
+  margin-left: 0;
+  margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\000039}}
+.sample-text-area {
+  background: #fff;
+  padding: 100px 0 70px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000313}}
+.text-heading {
+  margin-bottom: 30px;
+  font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000317}}
+b, sup, sub, u, del {
+  color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000320}}
+h1 {
+  font-size: 36px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000323}}
+h2 {
+  font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000326}}
+h3 {
+  font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000329}}
+h4 {
+  font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000332}}
+h5 {
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000335}}
+h6 {
+  font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000338}}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000342}}
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+  color: #777777; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000346}}
+.button-area {
+  background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000347}}
+  .button-area .border-top-generic {
+    padding: 70px 15px;
+    border-top: 1px dotted #eee; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000354}}
+.button-group-area .genric-btn {
+  margin-right: 10px;
+  margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000357}}
+  .button-group-area .genric-btn:last-child {
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000362}}
+.genric-btn {
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  font-size: .8em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000373}}
+  .genric-btn:focus {
+    outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000376}}
+  .genric-btn.e-large {
+    padding: 0 40px;
+    line-height: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000380}}
+  .genric-btn.large {
+    line-height: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000383}}
+  .genric-btn.medium {
+    line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000386}}
+  .genric-btn.small {
+    line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000389}}
+  .genric-btn.radius {
+    border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000392}}
+  .genric-btn.circle {
+    border-radius: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\0000395}}
+  .genric-btn.arrow {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003102}}
+    .genric-btn.arrow span {
+      margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003106}}
+  .genric-btn.default {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003110}}
+    .genric-btn.default:hover {
+      border: 1px solid #f9f9ff;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003115}}
+  .genric-btn.default-border {
+    border: 1px solid #f9f9ff;
+    background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003118}}
+    .genric-btn.default-border:hover {
+      color: #222222;
+      background: #f9f9ff;
+      border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003124}}
+  .genric-btn.primary {
+    color: #fff;
+    background: #88d200;
+    border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003128}}
+    .genric-btn.primary:hover {
+      color: #88d200;
+      border: 1px solid #88d200;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003134}}
+  .genric-btn.primary-border {
+    color: #88d200;
+    border: 1px solid #88d200;
+    background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003138}}
+    .genric-btn.primary-border:hover {
+      color: #fff;
+      background: #88d200;
+      border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003144}}
+  .genric-btn.success {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003148}}
+    .genric-btn.success:hover {
+      color: #4cd3e3;
+      border: 1px solid #4cd3e3;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003154}}
+  .genric-btn.success-border {
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003159}}
+    .genric-btn.success-border:hover {
+      color: #fff;
+      background: #4cd3e3;
+      border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003165}}
+  .genric-btn.info {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003169}}
+    .genric-btn.info:hover {
+      color: #38a4ff;
+      border: 1px solid #38a4ff;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003175}}
+  .genric-btn.info-border {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003180}}
+    .genric-btn.info-border:hover {
+      color: #fff;
+      background: #38a4ff;
+      border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003186}}
+  .genric-btn.warning {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003190}}
+    .genric-btn.warning:hover {
+      color: #f4e700;
+      border: 1px solid #f4e700;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003196}}
+  .genric-btn.warning-border {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003200}}
+    .genric-btn.warning-border:hover {
+      color: #fff;
+      background: #f4e700;
+      border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003206}}
+  .genric-btn.danger {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003210}}
+    .genric-btn.danger:hover {
+      color: #f44a40;
+      border: 1px solid #f44a40;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003216}}
+  .genric-btn.danger-border {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003220}}
+    .genric-btn.danger-border:hover {
+      color: #fff;
+      background: #f44a40;
+      border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003226}}
+  .genric-btn.link {
+    color: #222222;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003231}}
+    .genric-btn.link:hover {
+      color: #222222;
+      border: 1px solid #f9f9ff;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003237}}
+  .genric-btn.link-border {
+    color: #222222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003242}}
+    .genric-btn.link-border:hover {
+      color: #222222;
+      background: #f9f9ff;
+      border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003248}}
+  .genric-btn.disable {
+    color: #222222, 0.3;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+    cursor: not-allowed; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003256}}
+.generic-blockquote {
+  padding: 30px 50px 30px 30px;
+  background: #f9f9ff;
+  border-left: 2px solid #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003261}}
+.progress-table-wrap {
+  overflow-x: scroll; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003264}}
+.progress-table {
+  background: #f9f9ff;
+  padding: 15px 0px 30px 0px;
+  min-width: 800px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003268}}
+  .progress-table .serial {
+    width: 11.83%;
+    padding-left: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003272}}
+  .progress-table .country {
+    width: 28.07%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003275}}
+  .progress-table .visit {
+    width: 19.74%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003278}}
+  .progress-table .percentage {
+    width: 40.36%;
+    padding-right: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003282}}
+  .progress-table .table-head {
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003284}}
+    .progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+      color: #222222;
+      line-height: 40px;
+      text-transform: uppercase;
+      font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003291}}
+  .progress-table .table-row {
+    padding: 15px 0;
+    border-top: 1px solid #edf3fd;
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003295}}
+    .progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+      display: flex;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003300}}
+    .progress-table .table-row .country img {
+      margin-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003305}}
+    .progress-table .table-row .percentage .progress {
+      width: 80%;
+      border-radius: 0px;
+      background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003309}}
+      .progress-table .table-row .percentage .progress .progress-bar {
+        height: 5px;
+        line-height: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003312}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-1 {
+          background-color: #6382e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003315}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-2 {
+          background-color: #e66686; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003318}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-3 {
+          background-color: #f09359; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003321}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-4 {
+          background-color: #73fbaf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003324}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-5 {
+          background-color: #73fbaf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003327}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-6 {
+          background-color: #6382e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003330}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-7 {
+          background-color: #a367e7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003333}}
+        .progress-table .table-row .percentage .progress .progress-bar.color-8 {
+          background-color: #e66686; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003342}}
+.single-gallery-image {
+  margin-top: 30px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  height: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003349}}
+.list-style {
+  width: 14px;
+  height: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003354}}
+.unordered-list li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.82em !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003358}}
+  .unordered-list li:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #88d200;
+    background: #fff;
+    top: 4px;
+    left: 0;
+    border-radius: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003371}}
+.ordered-list {
+  margin-left: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003373}}
+  .ordered-list li {
+    list-style-type: decimal-leading-zero;
+    color: #88d200;
+    font-weight: 500;
+    line-height: 1.82em !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003378}}
+    .ordered-list li span {
+      font-weight: 300;
+      color: #777777; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003385}}
+.ordered-list-alpha li {
+  margin-left: 30px;
+  list-style-type: lower-alpha;
+  color: #88d200;
+  font-weight: 500;
+  line-height: 1.82em !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003391}}
+  .ordered-list-alpha li span {
+    font-weight: 300;
+    color: #777777; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003398}}
+.ordered-list-roman li {
+  margin-left: 30px;
+  list-style-type: lower-roman;
+  color: #88d200;
+  font-weight: 500;
+  line-height: 1.82em !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003404}}
+  .ordered-list-roman li span {
+    font-weight: 300;
+    color: #777777; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003410}}
+.single-input {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  background: #f9f9ff;
+  padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003418}}
+  .single-input:focus {
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003422}}
+.input-group-icon {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003424}}
+  .input-group-icon .icon {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    line-height: 40px;
+    z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003429}}
+    .input-group-icon .icon i {
+      color: #797979; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003434}}
+  .input-group-icon .single-input {
+    padding-left: 45px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003438}}
+.single-textarea {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  background: #f9f9ff;
+  padding: 0 20px;
+  height: 100px;
+  resize: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003448}}
+  .single-textarea:focus {
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003493}}
+.single-input-primary {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: 1px solid transparent;
+  outline: none;
+  background: #f9f9ff;
+  padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003501}}
+  .single-input-primary:focus {
+    outline: none;
+    border: 1px solid #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003506}}
+.single-input-accent {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: 1px solid transparent;
+  outline: none;
+  background: #f9f9ff;
+  padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003514}}
+  .single-input-accent:focus {
+    outline: none;
+    border: 1px solid #eb6b55; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003519}}
+.single-input-secondary {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: 1px solid transparent;
+  outline: none;
+  background: #f9f9ff;
+  padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003527}}
+  .single-input-secondary:focus {
+    outline: none;
+    border: 1px solid #f09359; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003533}}
+.default-switch {
+  width: 35px;
+  height: 17px;
+  border-radius: 8.5px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003540}}
+  .default-switch input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003550}}
+    .default-switch input + label {
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #88d200;
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s;
+      box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003563}}
+    .default-switch input:checked + label {
+      left: 19px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003569}}
+.primary-switch {
+  width: 35px;
+  height: 17px;
+  border-radius: 8.5px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003576}}
+  .primary-switch input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003585}}
+    .primary-switch input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003593}}
+      .primary-switch input + label:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border-radius: 8.5px;
+        cursor: pointer;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003607}}
+      .primary-switch input + label:after {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #fff;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+        cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003623}}
+    .primary-switch input:checked + label:after {
+      left: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003626}}
+    .primary-switch input:checked + label:before {
+      background: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003633}}
+.confirm-switch {
+  width: 35px;
+  height: 17px;
+  border-radius: 8.5px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003640}}
+  .confirm-switch input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003649}}
+    .confirm-switch input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003657}}
+      .confirm-switch input + label:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border-radius: 8.5px;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003671}}
+      .confirm-switch input + label:after {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #fff;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+        cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003687}}
+    .confirm-switch input:checked + label:after {
+      left: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003690}}
+    .confirm-switch input:checked + label:before {
+      background: #4cd3e3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003697}}
+.primary-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003704}}
+  .primary-checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003713}}
+    .primary-checkbox input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      border: 1px solid #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003726}}
+    .primary-checkbox input:checked + label {
+      background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+      border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003734}}
+.confirm-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003741}}
+  .confirm-checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003750}}
+    .confirm-checkbox input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      border: 1px solid #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003763}}
+    .confirm-checkbox input:checked + label {
+      background: url(../img/elements/success-check.png) no-repeat center center/cover;
+      border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003770}}
+.disabled-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003777}}
+  .disabled-checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003786}}
+    .disabled-checkbox input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      border: 1px solid #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003798}}
+    .disabled-checkbox input:disabled {
+      cursor: not-allowed;
+      z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003803}}
+    .disabled-checkbox input:checked + label {
+      background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+      border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003810}}
+.primary-radio {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003817}}
+  .primary-radio input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003826}}
+    .primary-radio input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 1px solid #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003839}}
+    .primary-radio input:checked + label {
+      background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+      border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003846}}
+.confirm-radio {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003853}}
+  .confirm-radio input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003862}}
+    .confirm-radio input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 1px solid #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003875}}
+    .confirm-radio input:checked + label {
+      background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+      border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003882}}
+.disabled-radio {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #f9f9ff;
+  position: relative;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003889}}
+  .disabled-radio input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003898}}
+    .disabled-radio input + label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 1px solid #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003910}}
+    .disabled-radio input:disabled {
+      cursor: not-allowed;
+      z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003915}}
+    .disabled-radio input:checked + label {
+      background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+      border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003923}}
+.default-select {
+  height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003925}}
+  .default-select .nice-select {
+    border: none;
+    border-radius: 0px;
+    height: 40px;
+    background: #f9f9ff;
+    padding-left: 20px;
+    padding-right: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003932}}
+    .default-select .nice-select .list {
+      margin-top: 0;
+      border: none;
+      border-radius: 0px;
+      box-shadow: none;
+      width: 100%;
+      padding: 10px 0 10px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003939}}
+      .default-select .nice-select .list .option {
+        font-weight: 300;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        line-height: 28px;
+        min-height: 28px;
+        font-size: 12px;
+        padding-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003946}}
+        .default-select .nice-select .list .option.selected {
+          color: #88d200;
+          background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003950}}
+        .default-select .nice-select .list .option:hover {
+          color: #88d200;
+          background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003957}}
+  .default-select .current {
+    margin-right: 50px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003961}}
+  .default-select .nice-select::after {
+    right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003965}}
+.form-select {
+  height: 40px;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003968}}
+  .form-select .nice-select {
+    border: none;
+    border-radius: 0px;
+    height: 40px;
+    background: #f9f9ff;
+    padding-left: 45px;
+    padding-right: 40px;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003976}}
+    .form-select .nice-select .list {
+      margin-top: 0;
+      border: none;
+      border-radius: 0px;
+      box-shadow: none;
+      width: 100%;
+      padding: 10px 0 10px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003983}}
+      .form-select .nice-select .list .option {
+        font-weight: 300;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        line-height: 28px;
+        min-height: 28px;
+        font-size: 12px;
+        padding-left: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003990}}
+        .form-select .nice-select .list .option.selected {
+          color: #88d200;
+          background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\00003994}}
+        .form-select .nice-select .list .option:hover {
+          color: #88d200;
+          background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\000031001}}
+  .form-select .current {
+    margin-right: 50px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_elements\.scss}line{font-family:\000031005}}
+  .form-select .nice-select::after {
+    right: 20px; }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\000035}}
+#header {
+  padding: 0px 0px 14px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000313}}
+  #header hr {
+    border-color: rgba(255, 255, 255, 0.3);
+    margin-top: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000319}}
+.header-top {
+  height: 24px;
+  margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000322}}
+  .header-top a {
+    color: #fff;
+    font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000330}}
+.top-head-left ul li {
+  display: inline-block;
+  margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000336}}
+.top-head-right {
+  text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000337}}
+  .top-head-right ul li {
+    display: inline-block;
+    margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000340}}
+    .top-head-right ul li a {
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000344}}
+    .top-head-right ul li:hover a {
+      color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000353}}
+#header.header-scrolled {
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 0.5s; }
+
+@media (max-width: 673px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000359}}
+  #logo {
+    margin-left: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000364}}
+#header #logo h1 {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000373}}
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #fff;
+  padding-left: 10px;
+  border-left: 4px solid #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000379}}
+#header #logo img {
+  padding: 0;
+  margin: 0; }
+
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000385}}
+  #header #logo h1 {
+    font-size: 28px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000388}}
+  #header #logo img {
+    max-height: 40px; } }
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Nav Menu Essentials */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\0000399}}
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003105}}
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003113}}
+.nav-menu li {
+  position: relative;
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003118}}
+.nav-menu > li {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003122}}
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003127}}
+.nav-menu ul ul {
+  top: 0;
+  left: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003132}}
+.nav-menu ul li {
+  min-width: 180px;
+  text-align: left; }
+
+/* Nav Menu Arrows */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003138}}
+.sf-arrows .sf-with-ul {
+  padding-right: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003142}}
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003151}}
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105"; }
+
+/* Nav Meu Container */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003156}}
+#nav-menu-container {
+  margin: 0; }
+
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003167}}
+  #nav-menu-container {
+    display: none; } }
+/* Nav Meu Styling */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003173}}
+.nav-menu a {
+  padding: 6px 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003188}}
+.nav-menu > li {
+  margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003192}}
+.nav-menu ul {
+  margin: 14px 0 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003203}}
+.nav-menu ul li {
+  transition: 0.3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003207}}
+.nav-menu ul li a {
+  padding: 10px;
+  color: #333;
+  transition: 0.3s;
+  display: block;
+  font-size: 12px;
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003216}}
+.nav-menu ul li:hover > a {
+  color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003220}}
+.nav-menu ul ul {
+  margin: 0; }
+
+/* Mobile Nav Toggle */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003225}}
+#mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  z-index: 999;
+  top: 50px;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003239}}
+#mobile-nav-toggle i {
+  color: #fff;
+  font-weight: 900; }
+
+@media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003245}}
+  #mobile-nav-toggle {
+    display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003248}}
+  #nav-menu-container {
+    display: none; } }
+/* Mobile Nav Styling */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003254}}
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.8);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.4s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003267}}
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003273}}
+#mobile-nav ul li {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003277}}
+#mobile-nav ul li a {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003291}}
+#mobile-nav ul li a:hover {
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003295}}
+#mobile-nav ul li li {
+  padding-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003299}}
+#mobile-nav ul .menu-has-children i {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003308}}
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+  color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003312}}
+#mobile-nav ul .menu-has-children li a {
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003316}}
+#mobile-nav ul .menu-item-active {
+  color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003320}}
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  display: none; }
+
+/* Mobile Nav body classes */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003332}}
+body.mobile-nav-active {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003336}}
+body.mobile-nav-active #mobile-nav {
+  left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_header\.scss}line{font-family:\00003340}}
+body.mobile-nav-active #mobile-nav-toggle {
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\000032}}
+.section-gap {
+  padding: 120px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\000035}}
+.section-title {
+  padding-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\000037}}
+  .section-title h2 {
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000310}}
+  .section-title p {
+    font-size: 16px;
+    margin-bottom: 0; }
+    @media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000314}}
+      .section-title p br {
+        display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000322}}
+.primary-btn {
+  background-color: #88d200;
+  line-height: 42px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000337}}
+  .primary-btn:focus {
+    outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000340}}
+  .primary-btn span {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    right: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000348}}
+  .primary-btn:hover {
+    color: #88d200;
+    background-color: transparent;
+    border-color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000353}}
+  .primary-btn.white {
+    border: 1px solid #fff;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000356}}
+    .primary-btn.white span {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000359}}
+    .primary-btn.white:hover {
+      background: #fff;
+      color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000362}}
+      .primary-btn.white:hover span {
+        color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000370}}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000381}}
+.banner-area {
+  background: url(../img/header-bg.jpg) center;
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000384}}
+  .banner-area .overlay-bg {
+    background-color: rgba(0, 0, 0, 0.7); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000388}}
+.banner-content {
+  margin-top: -90px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000391}}
+  .banner-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000396}}
+    .banner-content h1 span {
+      font-weight: 700; }
+    @media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000391}}
+      .banner-content h1 {
+        font-size: 36px; } }
+    @media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003102}}
+      .banner-content h1 br {
+        display: none; } }
+    @media (max-width: 1199.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000391}}
+      .banner-content h1 {
+        font-size: 45px; } }
+    @media (max-width: 414px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\0000391}}
+      .banner-content h1 {
+        font-size: 32px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003116}}
+  .banner-content h6 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  @media (max-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003123}}
+    .banner-content br {
+      display: none; } }
+  @media (max-width: 763px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003128}}
+    .banner-content p {
+      color: #222; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003142}}
+.single-service {
+  padding: 30px;
+  text-align: center;
+  background-color: #f9f9ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003146}}
+  .single-service .lnr {
+    font-size: 36px;
+    color: #222;
+    color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003151}}
+  .single-service h4 {
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003157}}
+  .single-service .image {
+    display: block;
+    width: 100%;
+    height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003163}}
+  .single-service .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f9f9ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003176}}
+  .single-service:hover .overlay {
+    opacity: 1;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003181}}
+  .single-service .text {
+    padding: 30px;
+    color: white;
+    position: absolute;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003182}}
+    .single-service .text p {
+      color: #777777; }
+  @media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003142}}
+    .single-service {
+      margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003193}}
+      .single-service .overlay {
+        height: 88%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003206}}
+.quote-left h1 {
+  font-size: 30px;
+  text-align: right;
+  font-weight: 100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003210}}
+  .quote-left h1 span {
+    font-weight: 600; }
+  @media (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003214}}
+    .quote-left h1 br {
+      display: none; } }
+
+@media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003223}}
+  .quote-left, .quote-right {
+    margin-bottom: 30px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003226}}
+    .quote-left h1, .quote-right h1 {
+      text-align: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003238}}
+.exibition-area {
+  background-color: #f9f9ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003241}}
+  .exibition-area .owl-dots {
+    text-align: center;
+    bottom: 5px;
+    margin-top: 20px;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003252}}
+  .exibition-area .owl-dot {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: rgba(127, 127, 127, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003262}}
+  .exibition-area .owl-dot.active {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003270}}
+.single-exibition .tags {
+  padding: 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003272}}
+  .single-exibition .tags li {
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px 15px;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003276}}
+    .single-exibition .tags li a {
+      color: #222;
+      font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003283}}
+    .single-exibition .tags li:hover {
+      background-color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003284}}
+      .single-exibition .tags li:hover a {
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003292}}
+.single-exibition h4 {
+  padding-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003296}}
+.single-exibition .date {
+  color: #222;
+  font-weight: 300; }
+@media (max-width: 414px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003269}}
+  .single-exibition {
+    padding: 15px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003313}}
+.upcoming-event-area .event-left .single-events {
+  margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003314}}
+  .upcoming-event-area .event-left .single-events h4 {
+    margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003317}}
+  .upcoming-event-area .event-left .single-events h6 {
+    font-weight: 300;
+    color: #777;
+    padding-top: 10px;
+    padding-bottom: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003322}}
+    .upcoming-event-area .event-left .single-events h6 span {
+      color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003331}}
+.upcoming-event-area .event-right .single-events {
+  margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003332}}
+  .upcoming-event-area .event-right .single-events img {
+    margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003335}}
+  .upcoming-event-area .event-right .single-events h6 {
+    font-weight: 300;
+    color: #777;
+    padding-top: 10px;
+    padding-bottom: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003340}}
+    .upcoming-event-area .event-right .single-events h6 span {
+      color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003355}}
+.blog-area {
+  background-color: #f9f9ff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003361}}
+.single-blog .thumb {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003363}}
+  .single-blog .thumb img {
+    width: 100%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003369}}
+.single-blog:hover img {
+  transform: scale(1.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003372}}
+.single-blog:hover h4 {
+  color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003376}}
+.single-blog h4 {
+  margin-bottom: 12px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003380}}
+.single-blog a {
+  color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003383}}
+.single-blog .date {
+  background-color: #000;
+  color: #fff;
+  font-weight: 100;
+  padding: 2px 15px;
+  width: 115px;
+  text-align: center;
+  margin-top: 20px; }
+@media (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003359}}
+  .single-blog {
+    margin-bottom: 30px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003407}}
+.gallery-area {
+  background-color: #04091e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003410}}
+  .gallery-area #grid-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003416}}
+  .gallery-area .grid-item {
+    opacity: 0;
+    float: left;
+    box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003422}}
+  .gallery-area .grid-item img {
+    width: 100%;
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003427}}
+  .gallery-area .grid-item.loaded {
+    opacity: 1;
+    transition: opacity .5s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003437}}
+.footer-area {
+  padding-top: 100px;
+  background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003441}}
+  .footer-area h6 {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003448}}
+.copy-right-text i, .copy-right-text a {
+  color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003457}}
+.footer-social a {
+  padding-right: 25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003462}}
+  .footer-social a:hover i {
+    color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003468}}
+.footer-social i {
+  color: #cccccc;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+@media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003456}}
+  .footer-social {
+    text-align: left; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003480}}
+.single-footer-widget input {
+  border: none;
+  width: 80% !important;
+  font-weight: 300;
+  background: #f9f9ff;
+  color: #eee;
+  padding-left: 20px;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 10px 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003490}}
+  .single-footer-widget input:focus {
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003495}}
+.single-footer-widget .bb-btn {
+  color: #88d200;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 0;
+  z-index: 9999;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003504}}
+.single-footer-widget .info {
+  position: absolute;
+  margin-top: 20%;
+  color: #fff;
+  font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003509}}
+  .single-footer-widget .info.valid {
+    color: green; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003512}}
+  .single-footer-widget .info.error {
+    color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003517}}
+.single-footer-widget .click-btn {
+  background-color: #88d200;
+  color: #fff;
+  border-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 9px 12px;
+  border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003527}}
+.single-footer-widget ::-moz-selection {
+  /* Code for Firefox */
+  background-color: #191919 !important;
+  color: #777777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003531}}
+.single-footer-widget ::selection {
+  background-color: #191919 !important;
+  color: #777777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003535}}
+.single-footer-widget ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #777777;
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003539}}
+.single-footer-widget :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #777777;
+  opacity: 1;
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003544}}
+.single-footer-widget ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #777777;
+  opacity: 1;
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003549}}
+.single-footer-widget :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #777777;
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003553}}
+.single-footer-widget ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #777777;
+  font-weight: 300; }
+@media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003479}}
+  .single-footer-widget {
+    margin-bottom: 30px; } }
+
+@media (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003566}}
+  .social-widget {
+    margin-top: 30px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003572}}
+.footer-text {
+  padding-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003574}}
+  .footer-text a, .footer-text i {
+    color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003583}}
+.whole-wrap {
+  background-color: #f3f3f3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003588}}
+.generic-banner {
+  background-color: #88d200;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003591}}
+  .generic-banner .height {
+    height: 600px; }
+    @media (max-width: 767.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003591}}
+      .generic-banner .height {
+        height: 400px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003598}}
+  .generic-banner .generic-banner-content h2 {
+    line-height: 1.2em;
+    margin-bottom: 20px; }
+    @media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003601}}
+      .generic-banner .generic-banner-content h2 br {
+        display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003607}}
+  .generic-banner .generic-banner-content p {
+    text-align: center;
+    font-size: 16px; }
+    @media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003610}}
+      .generic-banner .generic-banner-content p br {
+        display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003620}}
+.generic-content h1 {
+  font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003626}}
+.about-generic-area {
+  background: #f9f9ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003631}}
+  .about-generic-area p {
+    margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003635}}
+.white-bg {
+  background: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003638}}
+.section-top-border {
+  padding: 70px 0;
+  border-top: 1px dotted #eee; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003642}}
+.switch-wrap {
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_home\.scss}line{font-family:\00003644}}
+  .switch-wrap p {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\000036}}
+.link-nav {
+  margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000310}}
+.about-content {
+  padding: 150px 0px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000313}}
+  .about-content h1 {
+    font-size: 48px;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000317}}
+  .about-content a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000322}}
+  .about-content .lnr {
+    margin: 0px 10px;
+    font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000334}}
+.info-area .info-thumb {
+  overflow: hidden;
+  display: inline-block; }
+@media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000341}}
+  .info-area .info-content {
+    text-align: center;
+    padding: 80px 30px 80px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000348}}
+.info-area .info-content {
+  box-shadow: 0px 0px 50px 0px rgba(157, 157, 157, 0.3);
+  position: relative;
+  background: #fff;
+  padding: 80px 100px 80px 40px; }
+  @media (max-width: 575.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000348}}
+    .info-area .info-content {
+      margin-top: 30px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000354}}
+  .info-area .info-content:after {
+    content: "";
+    box-shadow: -35.355px 35.355px 50px 0px rgba(157, 157, 157, 0.3);
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background: #fff;
+    width: 70px;
+    height: 100%; }
+    @media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000354}}
+      .info-area .info-content:after {
+        width: 50px; } }
+    @media (max-width: 575.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000354}}
+      .info-area .info-content:after {
+        display: none; } }
+  @media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000348}}
+    .info-area .info-content {
+      padding: 30px 30px 30px 0; } }
+  @media (max-width: 575.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000348}}
+    .info-area .info-content {
+      padding: 30px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000378}}
+  .info-area .info-content h1 {
+    line-height: 1.15em;
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000382}}
+  .info-area .info-content .meta {
+    color: #222;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000390}}
+.info-area .info-left {
+  z-index: 2; }
+  @media (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\0000390}}
+    .info-area .info-left {
+      margin-top: 0px;
+      margin-bottom: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003110}}
+.cat-top-area {
+  background: #f9f9ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003112}}
+  .cat-top-area h1 {
+    margin-bottom: 20px; }
+  @media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003116}}
+    .cat-top-area .cat-top-right {
+      margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003118}}
+      .cat-top-area .cat-top-right img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003132}}
+.single-recent-work {
+  margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003134}}
+  .single-recent-work img {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003146}}
+.gallery-page-area {
+  background: #fff !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003159}}
+.single-exhibition img {
+  border-radius: 10px;
+  margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003163}}
+.single-exhibition h4 {
+  margin: 15px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003166}}
+.single-exhibition .price {
+  color: #88d200;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003180}}
+.contact-page-area {
+  background: #f9f9ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003182}}
+  .contact-page-area .map-wrap {
+    margin-bottom: 120px; }
+    @media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003182}}
+      .contact-page-area .map-wrap {
+        margin-bottom: 50px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003189}}
+  .contact-page-area .contact-btns {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003196}}
+    .contact-page-area .contact-btns:hover {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003202}}
+  .contact-page-area .form-area input {
+    padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003205}}
+  .contact-page-area .form-area input, .contact-page-area .form-area textarea {
+    border-radius: 0;
+    font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003209}}
+  .contact-page-area .form-area textarea {
+    height: 180px;
+    margin-top: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003214}}
+  .contact-page-area .form-area .primary-btn {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003216}}
+    .contact-page-area .form-area .primary-btn:hover {
+      border: 1px solid #88d200;
+      color: #88d200 !important; }
+  @media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003224}}
+    .contact-page-area .address-wrap {
+      margin-bottom: 50px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003230}}
+  .contact-page-area .single-contact-address {
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003232}}
+    .contact-page-area .single-contact-address h5 {
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003237}}
+    .contact-page-area .single-contact-address .lnr {
+      font-size: 30px;
+      font-weight: 500;
+      color: #88d200;
+      margin-right: 30px; }
+
+/*
+################
+               Start Blog Home  Page style
+################
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003262}}
+.blog-banner-area {
+  background: url(../img/elements/blog/blog-banner.jpg) center;
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003265}}
+  .blog-banner-area .overlay-bg {
+    background: rgba(0, 0, 0, 0.55); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003270}}
+.blog-banner-wrap {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003285}}
+.blog-post-list .single-post {
+  background: transparent;
+  padding: 0px 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003292}}
+.single-post {
+  margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003294}}
+  .single-post .tags {
+    margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003296}}
+    .single-post .tags li {
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003298}}
+      .single-post .tags li a {
+        color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003302}}
+      .single-post .tags li:hover a {
+        color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003308}}
+  .single-post h1 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003315}}
+  .single-post .title h4 {
+    margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003321}}
+  .single-post .comment-wrap ul li, .single-post .social-wrap ul li {
+    display: inline-block;
+    margin-right: 15px; }
+  @media (max-width: 414px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003320}}
+    .single-post .comment-wrap, .single-post .social-wrap {
+      margin-top: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003330}}
+  .single-post .comment-wrap ul li a {
+    color: #777777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003335}}
+  .single-post .social-wrap ul {
+    text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003337}}
+    .single-post .social-wrap ul li a i {
+      color: #777777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003339}}
+      .single-post .social-wrap ul li a i:hover {
+        color: #222; }
+    @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003335}}
+      .single-post .social-wrap ul {
+        text-align: left; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003357}}
+.single-widget {
+  border: 1px solid #eee;
+  padding: 40px 30px;
+  margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003361}}
+  .single-widget .title {
+    font-weight: 600;
+    margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003369}}
+.search-widget i {
+  color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003372}}
+.search-widget form.example {
+  border: 1px solid #eee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003376}}
+.search-widget form.example input[type=text] {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: #eee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003385}}
+.search-widget form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #eee;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003396}}
+.search-widget form.example::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003403}}
+.protfolio-widget {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003405}}
+  .protfolio-widget h4 {
+    padding: 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003408}}
+  .protfolio-widget ul li {
+    padding: 15px;
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003411}}
+    .protfolio-widget ul li a i {
+      color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003414}}
+      .protfolio-widget ul li a i:hover {
+        color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003424}}
+.category-widget ul li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003427}}
+  .category-widget ul li h6 {
+    font-weight: 300;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003431}}
+  .category-widget ul li span {
+    color: #222;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003436}}
+  .category-widget ul li:hover {
+    border-color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003439}}
+    .category-widget ul li:hover h6, .category-widget ul li:hover span {
+      color: #88d200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003450}}
+.tags-widget ul li {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003457}}
+  .tags-widget ul li a {
+    font-weight: 300;
+    color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003461}}
+  .tags-widget ul li:hover {
+    background-color: #88d200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003463}}
+    .tags-widget ul li:hover a {
+      color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003473}}
+.recent-posts-widget .single-recent-post .recent-details {
+  margin-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003475}}
+  .recent-posts-widget .single-recent-post .recent-details h4 {
+    line-height: 1.5em !important;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003480}}
+  .recent-posts-widget .single-recent-post .recent-details p {
+    margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003485}}
+.recent-posts-widget .single-recent-post:hover h4 {
+  color: #88d200; }
+@media (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003472}}
+  .recent-posts-widget .single-recent-post {
+    margin-bottom: 20px; } }
+
+/*
+################
+               End Blog Home  Page style
+################
+*/
+/*
+################
+               Start Blog Details  Page style
+################
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003516}}
+.nav-area {
+  border-bottom: 1px solid #eee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003518}}
+  .nav-area a {
+    color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003522}}
+  .nav-area .nav-left .thumb {
+    padding-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003526}}
+  .nav-area .nav-right {
+    text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003528}}
+    .nav-area .nav-right .thumb {
+      padding-left: 20px; }
+  @media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003534}}
+    .nav-area .post-details h4 {
+      font-size: 14px; } }
+  @media (max-width: 466px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003541}}
+    .nav-area .nav-right {
+      margin-top: 50px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003547}}
+.comment-sec-area {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003550}}
+  .comment-sec-area a {
+    color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003553}}
+  .comment-sec-area .comment-list {
+    padding-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003555}}
+    .comment-sec-area .comment-list.left-padding {
+      padding-left: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003560}}
+  .comment-sec-area .thumb {
+    margin-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003563}}
+  .comment-sec-area .date {
+    font-size: 13px;
+    color: #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003567}}
+  .comment-sec-area .comment {
+    color: #777777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003570}}
+  .comment-sec-area .btn-reply {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #222;
+    padding: 8px 30px;
+    display: block;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003577}}
+    .comment-sec-area .btn-reply:hover {
+      background-color: transparent;
+      color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003584}}
+.commentform-area {
+  padding-bottom: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003585}}
+  .commentform-area h5 {
+    font-weight: 600 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003588}}
+  .commentform-area .form-control {
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003593}}
+  .commentform-area .primary-btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #88d200 !important;
+    border: 1px solid transparent;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003599}}
+    .commentform-area .primary-btn:hover {
+      border-color: #88d200 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003603}}
+  .commentform-area textarea {
+    height: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/theme\/_pages\.scss}line{font-family:\00003608}}
+  .commentform-area .form-control {
+    border: none;
+    background: #f9f9ff; }
+
+/*
+################
+               End Blog Details  Page style
+################
+*/
+
+/*# sourceMappingURL=main.css.map */
