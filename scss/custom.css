@@ -100,5 +100,121 @@
   font-size: 60px; }
 
 /*MODAL CUSTOM END*/
+/*START TIMELINE CUSTOM*/
+/* Timeline Container */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003114}}
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+  justify-content: center;
+  display: grid; }
+
+/* Card container */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003123}}
+.card {
+  position: relative;
+  max-width: 400px; }
+
+/* setting padding based on even or odd */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003129}}
+.card:nth-child(odd) {
+  padding: 30px 0 30px 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003132}}
+.card:nth-child(even) {
+  padding: 30px 30px 30px 0; }
+
+/* Global ::before */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003136}}
+.card::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  border: solid orangered; }
+
+/* Setting the border of top, bottom, left */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003144}}
+.card:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px; }
+
+/* Setting the border of top, bottom, right */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003153}}
+.card:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 5px 5px 5px 0;
+  border-radius: 0 50px 50px 0; }
+
+/* Removing the border if it is the first card */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003162}}
+.card:first-child::before {
+  border-top: 0;
+  border-top-left-radius: 0; }
+
+/* Removing the border if it is the last card  and it's odd */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003168}}
+.card:last-child:nth-child(odd)::before {
+  border-bottom: 0;
+  border-bottom-left-radius: 0; }
+
+/* Removing the border if it is the last card  and it's even */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003174}}
+.card:last-child:nth-child(even)::before {
+  border-bottom: 0;
+  border-bottom-right-radius: 0; }
+
+/* Information about the timeline */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003180}}
+.info {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  color: gray;
+  border-radius: 10px;
+  padding: 10px; }
+
+/* Title of the card */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003190}}
+.title {
+  color: orangered;
+  position: relative; }
+
+/* Timeline dot  */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003196}}
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  border: 3px solid orangered; }
+
+/* text right if the card is even  */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003207}}
+.card:nth-child(even) > .info > .title {
+  text-align: right; }
+
+/* setting dot to the left if the card is odd */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003212}}
+.card:nth-child(odd) > .info > .title::before {
+  left: -45px; }
+
+/* setting dot to the right if the card is odd */
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003217}}
+.card:nth-child(even) > .info > .title::before {
+  right: -45px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003222}}
+.timeline .outer .card {
+  border: none; }
+
+/*END TIMELINE CUSTOM*/
 
 /*# sourceMappingURL=custom.css.map */
