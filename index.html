@@ -208,7 +208,7 @@
                     <div id="gallery_vue_app">
                         <div class="gallery">
                             <template v-for="(image, index) in images" :key="index">
-                                <a :href="image.src" :data-caption="image.datacaption">
+                                <a :href="image.src">
                                     <img :src="image.src" :alt="'Imaginea ' + (index + 1)">
                                 </a>
                             </template>
@@ -345,6 +345,25 @@
     <script src="js/main.js"></script>
     <script src="js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.0/dist/simple-lightbox.min.js"></script>
+
+    <script
+        src='https://sleekflow.io/whatsapp-button.js'
+        async
+        onLoad="whatsappButton({
+        buttonName:'Whatsapp',
+        buttonIconSize: '22',
+        brandImageUrl:'https://sleekflow.io/static/images/sleekflow-icon.png',
+        brandName:'Gallery Of Art',
+        brandSubtitleText:'Epoca Modernă în Tușe și Culori',
+        buttonSize:'regular',
+        buttonPosition:'right',
+        callToAction:'Trimite mesaj',
+        phoneNumber:'40757865227',
+        welcomeMessage:'Hello 👋',
+        prefillMessage:'Salut, vreau sa stiu mai multe!',
+        })"
+    >
+</script>
 
 </body>
 
