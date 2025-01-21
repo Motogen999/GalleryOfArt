@@ -49,3 +49,21 @@ $('#scroll-btn').on('click', function (e) {
         800
     );
 });
+
+const app = Vue.createApp({
+    data() {
+      return {
+        images: [
+          { src: "img/g1.jpg" },
+          { src: "img/g2.jpg" },
+          { src: "img/g3.jpg" },
+          { src: "img/g4.jpg" },
+          { src: "img/g5.jpg" },
+          { src: "img/g6.jpg" },
+          { src: "img/g7.jpg" }
+        ],
+      };
+    },
+  });
+
+  app.mount("#gallery_vue_app");
