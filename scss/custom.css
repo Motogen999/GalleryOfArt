@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Merriweather");
 @media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\000033}}
 *,
 *::before,
@@ -216,5 +217,131 @@
   border: none; }
 
 /*END TIMELINE CUSTOM*/
+/*START ABOUT PAGE STYLE*/
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003245}}
+button {
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003249}}
+#portfolio {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003259}}
+.project {
+  position: relative;
+  background: #F2DAD7;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003263}}
+  .project img {
+    position: absolute;
+    opacity: 0.9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003267}}
+  .project p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003276}}
+  .project .grid__title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    bottom: 0;
+    font-weight: 100;
+    font-size: 0.8em;
+    z-index: 3;
+    text-transform: uppercase;
+    color: #474545;
+    letter-spacing: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003292}}
+.project:hover .grid__overlay {
+  transform: translateY(0%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003296}}
+.grid__overlay {
+  background: rgba(229, 182, 177, 0.9);
+  height: 100%;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  transform: translateY(101%);
+  transition: all 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003307}}
+  .grid__overlay button {
+    background: none;
+    outline: none;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003316}}
+    .grid__overlay button:hover {
+      transition: all 0.3s ease-in-out;
+      background: #ffffff;
+      color: #D1A39E;
+      transform: scale(1.05); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003327}}
+.overlay {
+  position: fixed;
+  background: rgba(71, 69, 69, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003337}}
+.overlay.open {
+  display: grid;
+  align-items: center;
+  justify-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003343}}
+.overlay__inner {
+  background: #ffffff;
+  width: 700px;
+  padding: 20px;
+  position: relative;
+  opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003351}}
+.close {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  background: none;
+  outline: 0;
+  color: #474545;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003361}}
+  .close:hover {
+    color: #D1A39E; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/M\:\/vscode\%20project\/GalleryOfArt\/scss\/custom\.scss}line{font-family:\00003366}}
+.project__image {
+  margin-left: -50%; }
+
+/*END ABOUT PAGE STYLE*/
 
 /*# sourceMappingURL=custom.css.map */

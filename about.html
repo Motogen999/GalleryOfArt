@@ -1,0 +1,107 @@
+<!-- <h2>test</h2>
+
+Aici de adaugat galeria fullscreen
+
+<h2>Simplu test HTML</h2>
+
+<iframe src="https://localhost:44309/" width="800" height="600" style="border: none;"></iframe>
+
+
+<h3>Footer pagina HTML</h3> -->
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/fav.png">
+    <meta name="author" content="codepixer">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <title>Gallery of Art</title>
+
+
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="scss/custom.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600" rel="stylesheet">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.0/dist/simple-lightbox.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+
+    <div id="projectGallery">
+        <section id="portfolio">
+          <div v-for="project in projects" :key="project.src" class="project">
+            <img class="project__image" :src="project.src" />
+            <p>{{ project.category }}</p>
+            <h3 class="grid__title">{{ project.title }}</h3>
+            <div class="grid__overlay">
+              <button class="viewbutton" @click="openOverlay(project)">view more</button>
+            </div>
+          </div>
+        </section>
+      
+        <div v-if="showOverlay" class="overlay">
+          <div class="overlay__inner">
+            <button class="close" @click="showOverlay = false">close X</button>
+            <img :src="selectedProject.src" />
+            <h3>{{ selectedProject.title }}</h3>
+            <p>{{ selectedProject.description }}</p>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.min.js"></script>
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/justified.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.0/dist/simple-lightbox.min.js"></script>
+
+    <script
+        src='https://sleekflow.io/whatsapp-button.js'
+        async
+        onLoad="whatsappButton({
+        buttonName:'Whatsapp',
+        buttonIconSize: '22',
+        brandImageUrl:'https://sleekflow.io/static/images/sleekflow-icon.png',
+        brandName:'Gallery Of Art',
+        brandSubtitleText:'Epoca Modernă în Tușe și Culori',
+        buttonSize:'regular',
+        buttonPosition:'right',
+        callToAction:'Trimite mesaj',
+        phoneNumber:'40757865227',
+        welcomeMessage:'Hello 👋',
+        prefillMessage:'Salut, vreau sa stiu mai multe!',
+        })"
+    >
+    </script>
+</body>
+</html>
