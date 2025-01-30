@@ -70,92 +70,29 @@ const app = Vue.createApp({
 
 /*START ABOUT PAGE STYLE*/
 
-const projectGallery = Vue.createApp({
-  data() {
-      return {
-          projects: [
-              { 
-                  src: "https://images.unsplash.com/photo-1519211975560-4ca611f5a72a?auto=format&fit=crop&w=700&q=80", 
-                  category: "Websites", 
-                  title: "Front-End",
-                  description: "Design modern și atractiv"
-              },
-              { 
-                  src: "https://images.unsplash.com/photo-1521104955835-ba91c70d6443?auto=format&fit=crop&w=700&q=80", 
-                  category: "Pure CSS", 
-                  title: "Front-End",
-                  description: "Minimalist și eficient"
-              },
-              { 
-                  src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=700&q=80", 
-                  category: "Web Apps", 
-                  title: "Full-Stack",
-                  description: "Funcțional și interactiv"
-              },
-              { 
-                  src: "https://images.unsplash.com/photo-1472437774355-71ab6752b434?auto=format&fit=crop&w=700&q=80", 
-                  category: "Daily UI", 
-                  title: "UI/UX Design",
-                  description: "Experiență fluidă și intuitivă"
-              },
-              { 
-                  src: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=700&q=80", 
-                  category: "Websites", 
-                  title: "Front-End",
-                  description: "Performanță și accesibilitate"
-              },
-              { 
-                  src: "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=700&q=80", 
-                  category: "Pure CSS", 
-                  title: "Front-End",
-                  description: "Animații și tranziții fluide"
-              },
-              { 
-                  src: "https://images.unsplash.com/photo-1481762554390-ff5562748bdf?auto=format&fit=crop&w=700&q=80", 
-                  category: "Web Apps", 
-                  title: "Full-Stack",
-                  description: "Scalabil și ușor de întreținut"
-              },
-              { 
-                  src: "https://images.unsplash.com/photo-1463620695885-8a91d87c53d0?auto=format&fit=crop&w=700&q=80", 
-                  category: "Daily UI", 
-                  title: "UI/UX Design",
-                  description: "Interfață plăcută și responsivă"
-              }
-          ],
-          showOverlay: false,
-          selectedProject: {}
-      };
-  },
-  methods: {
-      openOverlay(project) {
-          this.selectedProject = project;
-          this.showOverlay = true;
-      }
-  }
-});
+(function(window, document, $, undefined) {
+	var $slides, $btnArr;
 
-projectGallery.mount("#projectGallery");
+	function onClick(e) {
+		var $target = $(e.target);
+		if ($target.hasClass('slide') && !$target.hasClass('active') && !$target.siblings().hasClass('active')) {
+			$target.removeClass('anim-in last-viewed').addClass('active')
+			$target.siblings().removeClass('anim-in last-viewed').addClass('anim-out');
+		}
+	}
 
-const buttons = document.querySelectorAll('.project');
-const overlay = document.querySelector('.overlay');
-const overlayImage = document.querySelector('.overlay__inner img');
+	function closeSlide(e) {
+		var $slide = $(e.target).parent();
+		$slide.removeClass('active anim-in').addClass('last-viewed');
+		$slide.siblings().removeClass('anim-out').addClass('anim-in');
+	}
 
-function open(e) {
-  overlay.classList.add('open');
-  const src= e.currentTarget.querySelector('img').src;
-  overlayImage.src = src;
-}
-
-function close() {
-  overlay.classList.remove('open');
-}
-
-buttons.forEach(button => button.addEventListener('click', open));
-overlay.addEventListener('click', close);
-
-
-
-
+	$(function() {
+		$slides = $('.slide');
+		$btnArr = $slides.find('.btn-close');
+		$slides.on('click', onClick);
+		$btnArr.on('click', closeSlide);
+	});
+})(this, document, jQuery);
 
 /*END ABOUT PAGE STYLE*/
