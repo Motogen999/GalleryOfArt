@@ -80,6 +80,7 @@ const app = Vue.createApp({
           $target.siblings().removeClass('anim-in last-viewed').addClass('anim-out');
 
           $('html, body').css('width', '100vw');
+          $('#container').css('width', '100%');
       }
   }
 
@@ -89,6 +90,7 @@ const app = Vue.createApp({
       $slide.siblings().removeClass('anim-out').addClass('anim-in');
 
       $('html, body').css('width', '200vw');
+      $('#container').css('width', '300%');
   }
 
   $(function() {
